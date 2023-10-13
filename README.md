@@ -25,7 +25,7 @@ Teknik clustering digunakan untuk lebih memahami pola penyewaan sepeda dan menge
 
 ## Dashboard
 
-Dashboard interaktif dibuat dengan menggunakan Streamlit untuk memvisualisasikan hasil analisis data secara interaktif. Dashboard dapat diakses [disini]
+Dashboard interaktif dibuat dengan menggunakan Streamlit untuk memvisualisasikan hasil analisis data secara interaktif. Dashboard dapat diakses [https://appapp-f4zxv5trpt74jgcbhczrw4.streamlit.app/]
 
 ## Cara Menjalankan Projek
 
