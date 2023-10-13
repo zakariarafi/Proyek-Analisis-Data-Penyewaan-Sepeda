@@ -27,8 +27,14 @@ Teknik clustering digunakan untuk lebih memahami pola penyewaan sepeda dan menge
 
 Dashboard interaktif dibuat dengan menggunakan Streamlit untuk memvisualisasikan hasil analisis data secara interaktif. Dashboard dapat diakses [https://appapp-f4zxv5trpt74jgcbhczrw4.streamlit.app/]
 
-## Cara Menjalankan Projek
+## Setup Environment
+Anda perlu membuat environment khusus menggunakan Conda dan menginstall dependensi yang diperlukan. Ikuti langkah-langkah berikut:
 
-1. Clone repository ini.
-2. Install dependencies menggunakan
-3. Jalankan aplikasi streamlit dengan `streamlit run streamlit_app.py`.
+```
+
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install streamlit pandas numpy matplotlib seaborn
+```
+## Run steamlit app
+```streamlit run streamlit_app.py
