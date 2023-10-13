@@ -37,4 +37,6 @@ conda activate main-ds
 pip install streamlit pandas numpy matplotlib seaborn
 ```
 ## Run steamlit app
-```streamlit run streamlit_app.py
+```
+streamlit run streamlit_app.py
+```
