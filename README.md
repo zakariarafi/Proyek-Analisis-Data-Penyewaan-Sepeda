@@ -29,8 +29,8 @@ Dashboard interaktif dibuat dengan menggunakan Streamlit untuk memvisualisasikan
 
 ## Setup Environment
 Anda perlu membuat environment khusus menggunakan Conda dan menginstall dependensi yang diperlukan. Ikuti langkah-langkah berikut:
-```
-conda create --name main-ds python=3.9
+```sh
+conda create --name main-ds python=3.11
 conda activate main-ds
 pip install streamlit pandas numpy matplotlib seaborn
 ```
