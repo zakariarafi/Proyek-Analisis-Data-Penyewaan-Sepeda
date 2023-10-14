@@ -5,12 +5,13 @@ import matplotlib.dates as mdates
 import seaborn as sns
 import numpy as np  # untuk clustering
 
+# Informasi Proyek
+st.title('Proyek Analisis Data: Bike Sharing Data Analysis')
+
+'''
 # Load data
 day_df = pd.read_csv('day.csv')
 hour_df = pd.read_csv('hour.csv')
-
-# Informasi Proyek
-st.title('Proyek Analisis Data: Bike Sharing Data Analysis')
 
 st.markdown("""
 - **Nama:** Zakaria Rafi
@@ -32,7 +33,6 @@ if option == 'Day Data':
 elif option == 'Hour Data':
     st.write(hour_df)
 
-# ... (kode sebelumnya)
 
 # Menambahkan kesimpulan pertanyaan 1
 st.subheader('Kesimpulan Pertanyaan 1:')
@@ -40,6 +40,8 @@ st.write("""
 Ada pola musiman dalam penyewaan sepeda, dengan peningkatan penyewaan sekitar April hingga September (bulan-bulan hangat).
 Tren penyewaan menunjukkan peningkatan dari tahun ke tahun.
 """)
+
+'''
 
 # Plotting+pallette
 plt.figure(figsize=(10, 5)) 
@@ -52,12 +54,14 @@ plt.xlabel("Tanggal")
 plt.ylabel("Jumlah Penyewaan")
 st.pyplot(plt)
 
+'''
 # Menambahkan kesimpulan pertanyaan 2
 st.subheader('Kesimpulan Pertanyaan 2:')
 st.write("""
 Ada dua puncak penyewaan sepeda dalam sehari, yang berkorelasi dengan jam berangkat dan pulang kerja.
 Optimalisasi ketersediaan sepeda pada jam-jam sibuk dapat meningkatkan layanan kepada pelanggan.
 """)
+'''
 
 # Plotting distribusi penyewaan sepeda per jam+pallette
 plt.figure(figsize=(10, 5)) 
@@ -67,11 +71,13 @@ plt.xlabel('Jam')
 plt.ylabel('Jumlah Penyewaan')
 st.pyplot(plt)
 
+'''
 # Menambahkan Teknik Analisis Lanjutan
 st.subheader('Teknik Analisis Lanjutan: Clustering')
 st.write("""
 Setelah menganalisis dan mendapatkan kesimpulan mengenai data penyewaan sepeda, kita akan menerapkan teknik clustering untuk lebih memahami pola penyewaan sepeda dan mengelompokkan data berdasarkan karakteristik tertentu.
 """)
+'''
 
 # Mengkategorikan jam berdasarkan jumlah penyewaan
 hour_df['rental_category'] = pd.cut(hour_df['cnt'], bins=[0, 50, 100, np.inf], labels=['Low', 'Medium', 'High'])
