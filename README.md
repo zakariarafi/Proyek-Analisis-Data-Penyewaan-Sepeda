@@ -4,7 +4,7 @@
 
 **Nama**: Zakaria Rafi  
 **Email**: zakariarafifahmi@gmail.com  
-**Id Dicoding**: zakaria_rafit
+**Id Dicoding**: zakaria_rafi
 
 ## Deskripsi Projek
 
